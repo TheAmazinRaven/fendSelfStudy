@@ -5,4 +5,4 @@ Another repo for my self studying adventures but this time in Front End.
 
 4.24.22 Worked on let, const, and var as well as basic operators. 
 
-4.24.22 .2 Completed coding challenge number 1.
+4.24.22.2 Completed coding challenge number 1.
