@@ -98,3 +98,48 @@ console.log(x, y);
 
 const averageAge = ((ageRaven + ageTarrylon) / 2);
 console.log(ageRaven, ageTarrylon, averageAge);
+
+// Strings & Template Literals
+
+const firstName3 = "Raven";
+const job = "Software Engineer";
+const birthYear2 = 1993;
+const year2 = 2021;
+
+const raven = "I'm " + firstName3 + ", a " + (year2 - birthYear2) + " year old " + job + "!";
+console.log(raven);
+
+const ravenNew = `I'm ${firstName3}, a ${year2 - birthYear2} year old ${job}!`;
+console.log(ravenNew);
+
+console.log("String with \n\
+multiple \n\
+lines.");
+
+console.log(`String with
+multiple
+lines.`);
+
+// Taking Decisions if/else statements
+
+// Write a program to check whether someone can get their driver's license.
+const age3 = 15;
+
+if (age3 >= 18) {
+    console.log("You are old enough! 🚗");
+} else {
+    console.log("You are not old enough! 😥");
+    const yearsLeft = 18 - age3;
+    console.log(`You are too young and have ${yearsLeft} years left! 🤗`);
+}
+
+// Century person was born
+const birthYear3 = 1993;
+let century;
+
+if (birthYear3 <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
