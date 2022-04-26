@@ -9,4 +9,4 @@ Another repo for my self studying adventures but this time in Front End.
 
 4.25.22 Worked on String and Template Literals, Taking Decisions: if/else Statements.
 
-4.25.22 Testing my config. 
+4.25.22 Testing again.
