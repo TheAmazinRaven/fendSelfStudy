@@ -81,3 +81,21 @@ if (population >= avgCountry) {
 } else {
     console.log(`${country}'s population is ${avgCountry - population} below average.`);
 }
+
+/*
+
+1. Predict the result of these 5 operations without executing them:
+'9' - '5';
+'19' - '13' + '17';
+'19' - '13' + 17;
+'123' < 57;
+5 + 6 + '4' + 9 - 4 - 2;
+2. Execute the operations to check if you were right
+
+*/
+
+console.log('9' - '5', " My guess: 4.");
+console.log('19' - '13' + '17', " My guess: 23."); // 617
+console.log('19' - '13' + 17, " My guess: 617."); // 23
+console.log('123' < 57, " My guess: false.");
+console.log(5 + 6 + '4' + 9 - 4 - 2, " My guess: 153"); // 1143

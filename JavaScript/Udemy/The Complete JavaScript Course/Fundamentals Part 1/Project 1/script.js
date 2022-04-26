@@ -143,3 +143,30 @@ if (birthYear3 <= 2000) {
     century = 21;
 }
 console.log(century);
+
+// Type Conversion and Coercion
+
+// Type conversion means manually converting one variable type to another.
+
+// Type coercion means JavaScript converts the type for us.
+
+const inputYear = "1993";
+console.log(Number(inputYear), inputYear);
+console.log(inputYear + 18);
+
+console.log(Number("Raven"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// Type Coercion
+
+console.log("I am " + 23 + " years old.");
+console.log("23" - "10" - 3); // JS converted strings to numbers.
+console.log("23" / "2");
+
+let n = "1" + 1; // the string 11
+n = n - 1; // add string to more string, then convert it to a number
+console.log(n);
+
+// Truthy and Fasly Values
