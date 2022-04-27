@@ -1,3 +1,5 @@
+<!-- https://youtu.be/MkESyVB4oUw -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple to Do List</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" src="main.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Task List 2021</h1>
+        <form id ="new-task-form">
+            <input
+                type="text"
+                id="new-task-input"
+                placeholder="What do you have planned?">
+            <input
+                type="submit"
+                id="new-task-submit"
+                value="Add task">
+        </form>
+    </header>
 
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
 
-    <script src="script.js"></script>
+            <div id="tasks">
+
+                <div class="task">
+                    <input
+                    type="text"
+                    class="text"
+                    value="My shiny task"
+                    readonly>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
