@@ -170,3 +170,58 @@ n = n - 1; // add string to more string, then convert it to a number
 console.log(n);
 
 // Truthy and Fasly Values
+
+// The 5 Falsey variables: 0, "" (empty string), undefined, null, NaN; will become false when converted to boolean
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Raven"));
+console.log(Boolean({})); // empty object is truthy
+console.log(Boolean(""));
+
+// Fasly value example
+
+const money = 0;
+if(money) {
+    console.log("Don't spend it all. ;)");
+} else {
+    console.log("Captialism sucks.");
+}
+
+// Is variable defined?
+
+let height;
+if (height) {
+    console.log("Yay! Height is defined!");
+} else {
+    console.log("Height is undefined.");
+}
+
+// Equality Operators == vs ===
+
+const age4 = 18;
+if (age4 === 18) {
+    console.log("You're an adult!");
+} else if (age4 > 18) {
+    console.log("You're older than 18!");
+} else if (age4 < 18) {
+    console.log("You're younger than 18!");
+} else {
+    console.log("There's a bug somewhere bc this shouldn't print lol.")
+}
+
+// Another example
+
+/* WON'T WORK IN CLOUD 9 IDE
+const favorite = prompt("What's your favorite numnber?"); // Will not work in Cloud 9 bc doesn not exist in NodeJs
+console.log(favorite);
+
+*/
+
+// Boolean Logic
+
+
+// Logical Operators
+
+
+// The switch Statement
