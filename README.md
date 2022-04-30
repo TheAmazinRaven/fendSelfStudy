@@ -15,7 +15,3 @@ Another repo for my self studying adventures but this time in Front End.
 
 4.28.22 Did Truthy & Falsy and Equality Operators.
 
-Testing.
-
-jkggjhghjghjgjhghjghjghjgj
-
