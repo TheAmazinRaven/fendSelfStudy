@@ -213,15 +213,119 @@ if (age4 === 18) {
 // Another example
 
 /* WON'T WORK IN CLOUD 9 IDE
-const favorite = prompt("What's your favorite numnber?"); // Will not work in Cloud 9 bc doesn not exist in NodeJs
+const favorite = Number(prompt("What's your favorite numnber?")); // Will not work in Cloud 9 bc does not exist in NodeJs
 console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+    console.log("Cool! 23 is an amazing number!");
+} else if (favorite === 7) {
+    console.log("7 is also a cool numnber!");
+} else {
+    console.log("Number is not 23 or 7.");
+}
 
 */
 
 // Boolean Logic
 
+/*
+Study truth tables
+*/
+
 
 // Logical Operators
 
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = (hasDriversLicense && hasGoodVision);
+
+if (shouldDrive) {
+    console.log("Sarah is able to drive!");
+} else {
+    console.log("Someone else should drive, lol.");
+}
+
+const isTired = false; // C
+
+console.log(hasDriversLicense && hasGoodVision && !isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive!");
+} else {
+    console.log("Someone else should drive, lol.");
+}
 
 // The switch Statement
+
+const day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("It's Monday");
+        break;
+    case "Tuesday":
+        console.log("It's Tuesday");
+        break;
+    case "Wednesay":
+    case "Thursday":
+        console.log("It's Wednesay");
+        console.log("It's Thursday");
+        break;
+    case "Friday":
+        console.log("It's Friday");
+        break;
+    default:
+        console.log("Not a valid day");
+}
+
+if (day === "Monday") {
+    console.log("It's Monday");
+} else if (day === "Tuesday") {
+    console.log("It's Tuesday");
+} else if (day === "Wednesay" || day === "Thursday") {
+    console.log("It's Wednesay");
+    console.log("It's Thursday");
+} else if (day === "Friday") {
+    console.log("It's Friday");
+} else {
+    console.log("Not a valid day.");
+}
+
+// Statements and Expressions
+
+/*
+Expression = a piece of code that produces a value, example "3 + 4"
+
+Statement = a bigger piece of code that is exceuted but doesn't prodcues a value, example an if statement
+*/
+
+
+// The Conditional (Ternary) Operator
+
+const age5 = 23;
+
+age5 >= 21 ? console.log("I like to drink wine") : console.log("I like to drink water");
+
+const age6 = 27;
+const drink = age6 = 25 >= 21 ? "wine" : "water";
+console.log(drink);
+
+
+const age7 = 25;
+let drink2;
+if (age7 >= 21) {
+    drink2 = "wine";
+} else {
+    drink2 = "water";
+}
+
+console.log(drink2);
+
+let age8 = 22; // kept telling me it was undefined....?????
+console.log(`I like to drink ${age8 = 25 >= 21 ? "wine" : "water"}`);

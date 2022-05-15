@@ -17,3 +17,5 @@ Another repo for my self studying adventures but this time in Front End.
 
 4.30.22 Did some practice with functions using [JavaScript.info](https://javascript.info/function-basics) & [JavaScriptTutorial.net](https://www.javascripttutorial.net/javascript-function/). I still don't feel confident writing functions on my own, but I am determined to learn them.
 
+
+5.14.22 Worked on logical operators, the switch statement, and ternary operators. Set up folders for JS Games Tutorial. Built rock, paper, scissors but it's not working. Yay.
