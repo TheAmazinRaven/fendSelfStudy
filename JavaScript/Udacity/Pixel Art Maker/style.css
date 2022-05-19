@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+body {
+    background-color: #d6a5f3;
+}
+
+.container {
+    background-color: #ffffff;
+    
+    width: 80%;
+    
+    padding: 40px 20px;
+    
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+    padding: 1em;
+    border: 1px solid #413f55;
+    text-align: center;
+}
