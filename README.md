@@ -22,4 +22,8 @@ Another repo for my self studying adventures but this time in Front End.
 
 5.17.22 Worked on function declarations and function expressions.
 
+<<<<<<< HEAD
 5.23.22 Worked on functions again.
+=======
+5.26.22 Worked on arrow functions, and functions calling other functions. I need to practice arrow functions more.
+>>>>>>> 0016f5e8ff9d636a5c8966086eb13396bd8bad7f

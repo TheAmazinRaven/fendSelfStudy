@@ -44,3 +44,43 @@ the same populations)
 
 */
 
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100;
+}
+
+let China = percentageOfWorld1(1439323776);
+let India = percentageOfWorld1(1380004385);
+let US = percentageOfWorld1(331002651);
+
+console.log(China.toFixed(2));
+console.log(India.toFixed(2));
+console.log(US.toFixed(2));
+
+const percentageOfWorld2 = function(population) {
+    return (population / 7900) * 100;
+}
+
+let China2 = percentageOfWorld2(1439323776);
+let India2 = percentageOfWorld2(1380004385);
+let US2 = percentageOfWorld2(331002651);
+
+console.log(China2.toFixed(2));
+console.log(India2.toFixed(2));
+console.log(US2.toFixed(2));
+
+/*
+LECTURE: Arrow Functions
+1. Recreate the last assignment, but this time create an arrow function called
+'percentageOfWorld3'
+*/
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+
+let China3 = percentageOfWorld3(1439323776);
+let India3 = percentageOfWorld3(1380004385);
+let US3 = percentageOfWorld3(331002651);
+
+console.log(China3.toFixed(2));
+console.log(India3.toFixed(2));
+console.log(US3.toFixed(2));
