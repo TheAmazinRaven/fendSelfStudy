@@ -21,3 +21,5 @@ Another repo for my self studying adventures but this time in Front End.
 5.14.22 Worked on logical operators, the switch statement, and ternary operators. Set up folders for JS Games Tutorial. Built rock, paper, scissors but it's not working. Yay.
 
 5.17.22 Worked on function declarations and function expressions.
+
+5.23.22 Worked on functions again.
